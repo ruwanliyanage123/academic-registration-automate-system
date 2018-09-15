@@ -1,7 +1,36 @@
 body{
-    background: url(http://localhost/academic-registration-automate-system/assets/images/LoginPanelImage.jpeg);
+    background: url(http://localhost/academic-registration-automate-system/assets/images/LoginPanelImage1.png);
     background-repeat: no-repeat;
-    background-size: 1380px 630px;
-    margin-top: 10px;
-    margin-left: 20px;
+    background-size: auto;
+    background-position: 550px 100px; 
+
+    margin-top: 100px;
+    margin-left: 200px;
+
 }
+
+.heading{
+    margin-top: -50px;
+    margin-left: 350px;
+    color:#6161c9;
+}
+
+.username{
+    margin-top: 250px;
+    margin-left: 300px;
+    color:#6161c9;
+}
+
+.password{
+    margin-top: 5px;
+    margin-left: 300px;
+    color:#6161c9;
+}
+
+.submit{
+    margin-top: 5px;
+    margin-left: 450px;
+    color:#6161c9;
+    
+}
+
