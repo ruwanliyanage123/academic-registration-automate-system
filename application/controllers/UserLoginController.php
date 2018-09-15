@@ -10,7 +10,7 @@
             $this->load->view('user/UserLoginView');
         }
         public function getPostValue(){
-            echo"posted";
+            
             $this->UserLoginModel->validateData();
         }
     

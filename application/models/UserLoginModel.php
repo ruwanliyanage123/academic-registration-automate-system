@@ -19,17 +19,60 @@
             $password = $this->checkInput($this->input->post('password'));
 
             if(($username!=null)&&($password!=null)){
-                $query = $this->db->query("select*from users where username ='$username' and password='$password'");
+                $passwords = md5($password);
+                $query = $this->db->query("select*from users where username ='$username' and password='$passwords'");
+                
+                if($query->result()){
+                    foreach($query->result() as $row){
+                        $this->load->library('session');
+                        $data = array(
+                            'email' =>$row->email,
+                            'usertype' =>$row->user_type
+                            'logged_in'=>TRUE;
+                        );
+                        $this->session->set_userdata($data);
+                        $usertype = $this->session->userdata('usertype');
+                        redirect(base_url()."");
 
-                foreach($query->result() as $row){
-                    if($row->password== md5($password)){
-                        echo"password in matched";
-                    }
-                    else{
-                        echo"username or password is not match please try again";
+                        if($usertype =='applicant'){
+                            redirect(base_url()."UserLoginController/applicant");
+
+                        }else if($usertype =='operator'){
+                            redirect(base_url()."UserLoginController/operator");
+                        }
+                        break;
                     }
                 }
+                
             }
         }
     }
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
