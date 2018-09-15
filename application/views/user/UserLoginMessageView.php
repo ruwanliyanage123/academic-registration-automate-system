@@ -6,7 +6,7 @@
         <title>UCSC</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <link rel="stylesheet" href="<?=base_url('assets/css/UserloginView.css')?>" type="text/css"/>
+        <link rel="stylesheet" href="<?=base_url('assets/css/UserLoginMessageView.css')?>" type="text/css"/>
         <script src="main.js"></script>
     </head>
     <body>
@@ -22,6 +22,9 @@
             <div class="password">
                 PASSWORD 
                 <input type='password' name='password' id='password' size='25' placeholder=" Enter your password" required />
+            </div>
+            <div class="errorMessage">
+                <h5>your username and password is not extits or in valid !<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sign up or re try</h5>
             </div>
             <div class="login">
                 <input type="submit" name="login"  value="LOG IN">
