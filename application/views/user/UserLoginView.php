@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>UCSC</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <script type="text/javascript" src="<?php echo base_url();?>/assets/js/bootstrap.js" ></script>
+    <script type="text/javascript" src="<?php echo base_url();?>/assets/js/bootstrap.min.js" ></script>
+    <link rel="stylesheet" href="<?=base_url('assets/css/bootstrap.css')?>" type="text/css"/>
         <link rel="stylesheet" href="<?=base_url('assets/css/UserloginView.css')?>" type="text/css"/>
         <script src="main.js"></script>
     </head>
@@ -31,6 +33,7 @@
         <form action= "<?= base_url("/index.php/UserLoginController/registerApplicant")?>" method = "post" >
             <div class="signup">
                 <input type="submit" name="signup" value="SIGN UP"/>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
             </div>
         </form>
     </body>

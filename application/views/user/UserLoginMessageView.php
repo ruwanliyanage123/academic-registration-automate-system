@@ -8,6 +8,7 @@
         
         <link rel="stylesheet" href="<?=base_url('assets/css/UserLoginMessageView.css')?>" type="text/css"/>
         <script src="main.js"></script>
+        
     </head>
     <body>
 
@@ -17,6 +18,7 @@
         <form action= "<?= base_url("/index.php/UserLoginController/getPostValue")?>" method = "post" >
             <div class="username">
                 USERNAME
+                
                 <input type='text' name='username' id='username' required size='25'placeholder=" Enter your username"/>
             </div>
             <div class="password">
