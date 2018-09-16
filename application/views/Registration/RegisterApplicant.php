@@ -66,23 +66,82 @@
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-ms-6">
                                     <div form-group>
-                                        <input type="password" name="password" id="password" class="form-control input-sm" placeholder="password">
+                                        <input type="tel" name="mobile-phone" id="mobile-phone" class="form-control input-sm" placeholder="enter your mobile-phone in here ">
                                     </div>
                                 </div>
 
                                 <div class="col-xs-6 col-sm-6 col-ms-6">
                                     <div form-group>
-                                        <input type="re-password" name="re-password" id="re-password" class="form-control input-sm" placeholder="re password">
+                                    <input type="tel" name="home-phone" id="home-phone" class="form-control input-sm" placeholder="enter your Home-phone number in here ">
                                     </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-ms-6">
                                     <div form-group>
-                                        <input type="re-password" name="re-password" id="re-password" class="form-control input-sm" placeholder="re password">
+                                        <input type="tel" name="office-phone" id="office-phone" class="form-control input-sm" placeholder="enter your Office-phone number in here ">
+                                    </div>
+                                </div>
+                        
+                                <div class="civil-status-form">
+                                    <h4 class="gender-form1"> Gender</h4> 
+                                    <h4 class="civil-status-form1"> Civil Status</h4> 
+                                </div>
+                            
+                           
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="gender" id="male" autocomplete="off"> &nbsp;&nbsp;&nbsp;&nbsp; MALE
+                                    </label>
+
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="gender" id="female" autocomplete="off">FEMALE
+                                    </label>
+                                </div>
+
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-primary bb1">
+                                        <input type="radio" name="civil-status" id="married" autocomplete="off"> &nbsp;&nbsp;&nbsp;&nbsp; MARRIED
+                                    </label>
+
+                                    <label class="btn btn-primary bb2">
+                                        <input type="radio" name="civil-status" id="unmarried" autocomplete="off">UNMARRIED
+                                    </label>
+                                </div>
+
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-primary bb1">
+                                        <input type="radio" name="citizenship" id="by-descent" autocomplete="off"> &nbsp;&nbsp;&nbsp;&nbsp; BY DESCENT
+                                    </label>
+
+                                    <label class="btn btn-primary bb2">
+                                        <input type="radio" name="citizenship" id="by-registration" autocomplete="off">BY REGISTRATION
+                                    </label>
+                                </div>
+
+                            
+                                <h4 id="birth-date"> Date of Birth</h4> 
+                                
+
+                                <div class="calender">
+                                    <input type="date" data-date-inline-picker="true" />
+                                </div>
+
+                                <div class="col-xs-6 col-sm-6 col-md-6 age">
+                                    <div class="years">
+                                        <input type="text" name="years" id="years" class="form-control input-sm" placeholder="years">
+                                    </div>
+                                    <div class="months">
+                                        <input type="text" name="months" id="months" class="form-control input-sm" placeholder="months">
+                                    </div>
+                                    <div class="days">
+                                        <input type="text" name="days" id="days" class="form-control input-sm" placeholder="days">
                                     </div>
                                 </div>
                                 
+                                <h4 id="currect-age"> Age as at closing date of application</h4> 
+
                             </div>
-                            <input type="submit" value="register" class="btn btn-info btn-block">
+                            
+
                         </form>
                     </div>
                 </div>
