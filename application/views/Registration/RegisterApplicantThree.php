@@ -169,13 +169,13 @@
                         </div>
                     </div>
                 
-                    <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationThirdPage")?>"  >
+                    <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationFourthPage")?>"  >
                         <div class="signup2">
                             <input type="submit" name="signup" value="NEXT PAGE"/>
                         </div>
                     </form>
 
-                    <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationFirstPage")?>" >
+                    <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationSecondPage")?>" >
                         <div class="signup1">
                             <input type="submit" name="signup" value="PREV PAGE"/>
                         </div>

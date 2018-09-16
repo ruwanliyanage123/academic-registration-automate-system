@@ -25,6 +25,10 @@
         public function loadRegistrationThirdPage(){
             $this->load->view('Registration/RegisterApplicantThree');
         }
+        //for load the forth page of the registration form
+        public function loadRegistrationFourthPage(){
+            $this->load->view('Registration/RegisterApplicantFour');
+        }
 
         public function messageIndex(){
             $this->load->view('user/UserLoginMessageView');

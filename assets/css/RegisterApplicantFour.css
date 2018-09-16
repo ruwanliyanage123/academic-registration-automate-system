@@ -114,7 +114,7 @@ body{
 #note2{
     color: red;
     margin-left: 120px;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 
 #driving-licence{
@@ -209,6 +209,10 @@ body{
     margin-top: -165px;
 }
 
+#topics{
+    margin-left: 600px;
+}
+
 #experience{
     margin-left: 0px;
     margin-top: 10px;
@@ -222,6 +226,30 @@ body{
     margin-top: 10px;
     width:1050px;
     height:100px;
+}
+
+#other{
+    margin-left: 120px;
+    margin-top: 20px;
+    width:1050px;
+    height:80px;
+}
+
+#oath{
+    margin-left: 130px;
+    color: blue;
+}
+
+#calender1{
+    margin-left: 430px;
+    margin-top: 20px;
+}
+
+#gg{
+    width:100px;
+    margin-left: 650px;
+    margin-top: -30px;
+    background-color: rgb(30, 255, 0);
 }
 
 
