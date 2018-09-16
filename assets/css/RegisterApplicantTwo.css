@@ -205,6 +205,20 @@ body{
     margin-top: -165px;
 }
 
+#next{
+    width:200px;
+    margin-left: 680px;
+    margin-top: -33px;
+    background-color: rgb(159, 168, 250);
+}
+
+#prev{
+    width:200px;
+    margin-left: 470px;
+    margin-top: -154px;
+    background-color: rgb(159, 168, 250);
+}
+
 
 
 

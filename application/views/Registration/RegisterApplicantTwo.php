@@ -149,17 +149,15 @@
     </div>
 
     <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationThirdPage")?>"  >
-                                <div class="signup2">
-                                    <input type="submit" name="signup" value="NEXT PAGE"/>
-                                </div>
-                        </form>
-                        <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationFirstPage")?>" >
-                                <div class="signup1">
-                                    <input type="submit" name="signup" value="PREV PAGE"/>
-                                </div>
-
-
-                        </form>
+        <div class="signup2">
+            <input type="submit" id="next" name="signup" class="btn btn-info btn-block" value="NEXT PAGE"/>
+        </div>
+    </form>
+    <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationFirstPage")?>" >
+        <div class="signup1">
+            <input type="submit" id="prev" name="signup" class="btn btn-info btn-block" value="PREV PAGE"/>
+        </div>
+    </form>
 
                         
         

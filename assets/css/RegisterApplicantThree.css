@@ -224,6 +224,20 @@ body{
     height:100px;
 }
 
+#next{
+    width:200px;
+    margin-left: 530px;
+    margin-top: 20px;
+    background-color: rgb(159, 168, 250);
+}
+
+#prev{
+    width:200px;
+    margin-left: 300px;
+    margin-top: -34px;
+    background-color: rgb(159, 168, 250);
+}
+
 
 
 

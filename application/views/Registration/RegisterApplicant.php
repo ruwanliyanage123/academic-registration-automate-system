@@ -151,12 +151,12 @@
                         </form>
                         <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationSecondPage")?>"  >
                                 <div class="signup">
-                                    <input type="submit" name="signup" value="NEXT PAGE"/>
+                                    <input type="submit" name="signup" id="next" class="btn btn-info btn-block" value="NEXT PAGE"/>
                                 </div>
                         </form>
                         <form action= "<?= base_url("/index.php/UserLoginController/index")?>" >
                                 <div class="signup">
-                                    <input type="submit" name="signup" value="PREV PAGE"/>
+                                    <input type="submit" name="signup" id="prev" class="btn btn-info btn-block" value="PREV PAGE"/>
                                 </div>
                         </form>
                     </div>

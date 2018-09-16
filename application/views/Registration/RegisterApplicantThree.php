@@ -167,19 +167,20 @@
                         <div form-group>
                             <input type="text" name="research" id="research" class="form-control input-sm" placeholder="                                        Details of research and publications, If any (if space is insufficient, please append it with appends) ">
                         </div>
-                    </div>
+                    
                 
                     <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationFourthPage")?>"  >
                         <div class="signup2">
-                            <input type="submit" name="signup" value="NEXT PAGE"/>
+                            <input type="submit"class="btn btn-info btn-block" id="next" name="signup" value="NEXT PAGE"/>
                         </div>
                     </form>
 
                     <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationSecondPage")?>" >
                         <div class="signup1">
-                            <input type="submit" name="signup" value="PREV PAGE"/>
+                            <input type="submit" class="btn btn-info btn-block" id="prev" name="signup" value="PREV PAGE"/>
                         </div>
                     </form>
+                    
                 </div>
             </div>
         </div>
