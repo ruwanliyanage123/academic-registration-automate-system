@@ -22,20 +22,20 @@ body{
 }  
 
 .panel-body{
-    
+    background-color: rgb(13, 211, 56);
     height: 500px;
 }
 
 .col-xs-12{
-   
-    height: 700px;
+    
+    height: 430px;
     width: 1300px;
     margin-left: -100px;
 }
 
 .panel-default{
     
-    height: 700px;
+    height: 500px;
     width: 1300px;
     margin-left: 20px;
     margin-top: -80px;
@@ -76,9 +76,45 @@ body{
     
 }
 
-.content{
-    margin-left: 100px;
-    margin-top: 20px;
+.content1{
+    margin-left: 120px;
+    margin-top: 0px;
+}
+
+
+.content2{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.content3{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+#secondry{
+    margin-left: 540px;
+    margin-top: 0px;
+}
+
+#higher{
+    margin-left: 540px;
+    margin-top: 5px;
+}
+
+#other{
+    margin-left: 540px;
+    margin-top: 5px;
+}
+
+#note1{
+    color: red;
+    margin-left: 120px;
+    margin-top: 0px;
+}
+#note2{
+    color: red;
+    margin-left: 120px;
+    margin-top: 0px;
 }
 
 #driving-licence{
