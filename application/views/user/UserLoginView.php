@@ -8,7 +8,7 @@
         <script type="text/javascript" src="<?php echo base_url();?>/assets/js/bootstrap.js" ></script>
     <script type="text/javascript" src="<?php echo base_url();?>/assets/js/bootstrap.min.js" ></script>
     <link rel="stylesheet" href="<?=base_url('assets/css/bootstrap.css')?>" type="text/css"/>
-        <link rel="stylesheet" href="<?=base_url('assets/css/UserloginView.css')?>" type="text/css"/>
+        <link rel="stylesheet" href="<?=base_url('assets/css/UserloginView1.css')?>" type="text/css"/>
         <script src="main.js"></script>
     </head>
     <body>
@@ -18,21 +18,21 @@
         </div>
         <form action= "<?= base_url("/index.php/UserLoginController/getPostValue")?>" method = "post" >
             <div class="username">
-                USERNAME
-                <input type='text' name='username' id='username' required size='25'placeholder=" Enter your username"/>
+                
+                <input type='text' class="form-control input-sm username" name='username' id='username' required size='5'placeholder="                Enter your username"/>
             </div>
             <div class="password">
-                PASSWORD 
-                <input type='password' name='password' id='password' size='25' placeholder=" Enter your password" required />
+               
+                <input type='password'class="form-control input-sm password"  name='password' id='password' size='25' placeholder="                 Enter your password" required />
             </div>
             <div class="login">
-                <input type="submit" name="login"  value="LOG IN">
+                <input type="submit" id="login" name="login" class="btn btn-info btn-block"  value="LOG IN">
             </div>
         </form>
 
         <form action= "<?= base_url("/index.php/UserLoginController/registerApplicant")?>" method = "post" >
             <div class="signup">
-                <input type="submit" name="signup" value="SIGN UP"/>
+                <input type="submit" id="sign-up" class="btn btn-info btn-block" name="signup" value="SIGN UP"/>
                 
             </div>
         </form>

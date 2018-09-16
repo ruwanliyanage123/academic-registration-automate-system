@@ -9,7 +9,7 @@
     <script type="text/javascript" src="<?php echo base_url();?>/assets/js/bootstrap.js" ></script>
     <script type="text/javascript" src="<?php echo base_url();?>/assets/js/bootstrap.min.js" ></script>
     <link rel="stylesheet" href="<?=base_url('assets/css/bootstrap.min.css')?>" type="text/css"/>
-    <link rel="stylesheet" href="<?=base_url('assets/css/RegisterApplicantFour1.css')?>" type="text/css"/>
+    <link rel="stylesheet" href="<?=base_url('assets/css/RegisterApplicantFour.css')?>" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
@@ -76,7 +76,7 @@
 
                     <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationFourthPage")?>"  >
                         <div class="signup2">
-                            <input type="submit"id="submit" name="signup"class="btn btn-info btn-block" value="NEXT PAGE"/>
+                            <input type="submit"id="submit" name="signup"class="btn btn-info btn-block" value="SUBMIT DETAILS"/>
                         </div>
                     </form>
 

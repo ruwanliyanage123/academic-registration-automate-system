@@ -28,7 +28,7 @@ body{
 }
 
 .login{
-    margin-top: 20px;
+    margin-top: -20px;
     margin-left: 380px;
     color:#6161c9;
     
@@ -47,3 +47,12 @@ body{
     margin-left: 300px;
 }
 
+#username{
+    width: 250px;
+    margin-left: 30px;
+}
+
+#password{
+    width: 250px;
+    margin-left: 30px;
+}
