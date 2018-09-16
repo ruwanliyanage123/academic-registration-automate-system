@@ -76,6 +76,11 @@ body{
     
 }
 
+.content{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
 #driving-licence{
     width:620px;
     margin-left: 0px;
