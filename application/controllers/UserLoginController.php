@@ -11,6 +11,10 @@
         public function index(){
             $this->load->view('user/UserLoginView');
         }
+        //for load the second page of the registration form
+        public function loadRegistrationSecondPage(){
+            $this->load->view('Registration/RegisterApplicantTwo');
+        }
 
         public function messageIndex(){
             $this->load->view('user/UserLoginMessageView');

@@ -9,7 +9,7 @@
     <script type="text/javascript" src="<?php echo base_url();?>/assets/js/bootstrap.js" ></script>
     <script type="text/javascript" src="<?php echo base_url();?>/assets/js/bootstrap.min.js" ></script>
     <link rel="stylesheet" href="<?=base_url('assets/css/bootstrap.min.css')?>" type="text/css"/>
-    <link rel="stylesheet" href="<?=base_url('assets/css/RegisterApplicant.css')?>" type="text/css"/>
+    <link rel="stylesheet" href="<?=base_url('assets/css/RegisterApplicantTwo.css')?>" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
@@ -19,7 +19,7 @@
             <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>APPLICANT REGISTRATION FORM<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic Personal Details</b></h3>
+                        <h3 class="panel-title">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>APPLICANT REGISTRATION FORM<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Educational Qualifications Details</b></h3>
                     </div>
                     
                     <div class="panel-body">
@@ -148,16 +148,6 @@
                             </div>
                             
 
-                        </form>
-                        <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationSecondPage")?>"  >
-                                <div class="signup">
-                                    <input type="submit" name="signup" value="NEXT PAGE"/>
-                                </div>
-                        </form>
-                        <form action= "<?= base_url("/index.php/UserLoginController/index")?>" >
-                                <div class="signup">
-                                    <input type="submit" name="signup" value="PREV PAGE"/>
-                                </div>
                         </form>
                     </div>
                 </div>

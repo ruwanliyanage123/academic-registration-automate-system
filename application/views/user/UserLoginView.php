@@ -33,7 +33,7 @@
         <form action= "<?= base_url("/index.php/UserLoginController/registerApplicant")?>" method = "post" >
             <div class="signup">
                 <input type="submit" name="signup" value="SIGN UP"/>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                
             </div>
         </form>
     </body>
