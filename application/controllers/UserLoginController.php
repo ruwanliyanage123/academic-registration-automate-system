@@ -16,6 +16,16 @@
             $this->load->view('Registration/RegisterApplicantTwo');
         }
 
+        //for load the second page of the registration form
+        public function loadRegistrationFirstPage(){
+            $this->load->view('Registration/RegisterApplicant');
+        }
+
+        //for load the third page of the registration form
+        public function loadRegistrationThirdPage(){
+            $this->load->view('Registration/RegisterApplicantThree');
+        }
+
         public function messageIndex(){
             $this->load->view('user/UserLoginMessageView');
         }
