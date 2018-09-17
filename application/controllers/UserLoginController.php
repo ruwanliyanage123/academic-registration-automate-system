@@ -67,6 +67,11 @@
         public function registerApplicant(){
             $this->load->view('SignUpUser');
         }
+
+        
+        public function fileUpload(){
+            $this->load->view('Registration/ApplicationFormFileUpoload');
+        }
     } 
     
 ?>
