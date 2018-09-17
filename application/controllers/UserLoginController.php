@@ -13,21 +13,21 @@
         }
         //for load the second page of the registration form
         public function loadRegistrationSecondPage(){
-            $this->load->view('Registration/RegisterApplicantTwo');
+            $this->load->view('Registration/ApplicationFormPartTwo');
         }
 
         //for load the second page of the registration form
         public function loadRegistrationFirstPage(){
-            $this->load->view('Registration/RegisterApplicant');
+            $this->load->view('Registration/ApplicationFormPartOne');
         }
 
         //for load the third page of the registration form
         public function loadRegistrationThirdPage(){
-            $this->load->view('Registration/RegisterApplicantThree');
+            $this->load->view('Registration/ApplicationFormPartThree');
         }
         //for load the forth page of the registration form
         public function loadRegistrationFourthPage(){
-            $this->load->view('Registration/RegisterApplicantFour');
+            $this->load->view('Registration/ApplicationFormPartFour');
         }
 
         public function messageIndex(){
@@ -65,7 +65,7 @@
         }
         
         public function registerApplicant(){
-            $this->load->view('Registration/RegisterApplicant');
+            $this->load->view('SignUpUser');
         }
     } 
     
