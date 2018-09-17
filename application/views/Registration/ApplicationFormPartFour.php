@@ -74,9 +74,9 @@
                         <input type="submit" value="I agree"  id ="gg"class ="btn btn-info btn-block acce">
                     </div>
 
-                    <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationFourthPage")?>"  >
+                    <form action= "<?= base_url("/index.php/UserLoginController/loadApplicationFormFileUpoloadPage")?>"  >
                         <div class="signup2">
-                            <input type="submit"id="submit" name="signup"class="btn btn-info btn-block" value="SUBMIT DETAILS"/>
+                            <input type="submit"id="next" name="signup"class="btn btn-info btn-block" value="NEXT PAGE"/>
                         </div>
                     </form>
 

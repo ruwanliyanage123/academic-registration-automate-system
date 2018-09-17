@@ -157,4 +157,17 @@ body{
     font-size: 20px;
 }
 
+#next{
+    width:200px;
+    margin-left: 400px;
+    margin-top: 53px;
+    background-color: rgb(78, 96, 250);
+}
+
+#prev{
+    width:200px;
+    margin-left: 230px;
+    margin-top: 14px;
+    background-color:rgb(159, 168, 250);
+}
 

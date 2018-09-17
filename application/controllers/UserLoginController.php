@@ -30,6 +30,11 @@
             $this->load->view('Registration/ApplicationFormPartFour');
         }
 
+        //for load the forth page of the registration form
+        public function loadApplicationFormFileUpoloadPage(){
+            $this->load->view('Registration/ApplicationFormFileUpoload');
+        }
+
         public function messageIndex(){
             $this->load->view('user/UserLoginMessageView');
         }

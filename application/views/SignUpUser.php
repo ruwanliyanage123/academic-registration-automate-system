@@ -21,7 +21,7 @@
         <script>
             var check = function() {
                 if (document.getElementById('password').value == document.getElementById('re-password').value) {
-                    document.getElementById('message').style.color = 'rgb(9, 255, 0)';
+                    document.getElementById('message').style.color = 'green';
                     document.getElementById('message').innerHTML = 'PASSWORDS ARE  MATCHING';
                 } else {
                     document.getElementById('message').style.color = 'red';
