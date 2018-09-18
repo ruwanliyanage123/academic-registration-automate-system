@@ -60,13 +60,13 @@
 
         </form>
 
-        <form action= "<?= base_url("/index.php/UserLoginController/loadApplicationFormFileUpoloadPage")?>"  >
+        <form action= "<?= base_url("/index.php/UserLoginController")?>"  >
                         <div class="signup2">
                             <input type="submit"id="next" name="signup"class="btn btn-info btn-block" value="SUBMIT"/>
                         </div>
                     </form>
 
-                    <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationSecondPage")?>" >
+                    <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationFourthPage")?>" >
                         <div class="signup1">
                             <input type="submit" id="prev" name="signup" class="btn btn-info btn-block" value="PREV PAGE"/>
                         </div>
