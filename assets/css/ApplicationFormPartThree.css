@@ -22,7 +22,7 @@ body{
 }  
 
 .panel-body{
-    background-color: rgb(13, 211, 56);
+   
     height: 800px;
 }
 
@@ -34,7 +34,7 @@ body{
 }
 
 .panel-default{
-    
+    background-color: rgb(13, 211, 56);
     height: 800px;
     width: 1300px;
     margin-left: 20px;
@@ -254,6 +254,30 @@ body{
     -webkit-box-shadow: rgba(34, 11, 240, 0.1) 5px 5px 8px; 
 }
 
+#dropdown1{
+    margin-left: 500px;
+    margin-top: 30px;
+}
+#dropdown2{
+    margin-left: 500px;
+    margin-top: 10px;
+}
+#dropdown3{
+    margin-left: 500px;
+    margin-top: 10px;
+}
+#dropdown4{
+    margin-left: 600px;
+    margin-top: -123px;
+}
+#dropdown5{
+    margin-left: 600px;
+    margin-top: -78px;
+}
+#dropdown6{
+    margin-left: 600px;
+    margin-top: -35px;
+}
 
 
 
