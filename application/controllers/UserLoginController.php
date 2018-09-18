@@ -63,7 +63,7 @@
         //for open operator dashboard
         public function operatorDashboard(){
             echo"are you a operator";
-            $this->load->view('Dashboards/OperatorDashboard');
+            $this->load->view('user/Operator/OperatorDashboard');
         }
         //if username and password is not valid re try
         public function askForRegister(){
