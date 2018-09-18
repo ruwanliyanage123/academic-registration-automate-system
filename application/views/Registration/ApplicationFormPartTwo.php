@@ -15,9 +15,11 @@
 <body>
     
     <div class="container">
+
         <div class="row centered-form">
             <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
                 <div class="panel panel-default">
+                    
                     <div class="panel-heading">
                         <h3 class="panel-title">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>APPLICANT REGISTRATION FORM<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Educational Qualifications</b></h3>
                     </div>
@@ -141,8 +143,20 @@
 
                             </tr>
                         </table>
+
+                        
+
                     </div>
+                   
                     <h5 id="note2">Note:Certified copies of the certificates and transcripts should be attached</h5>
+                
+                    <form action= "<?= base_url("/index.php/UserLoginController/logout")?>" >
+                        <div class="signup1">
+                            <input type="submit" id="logout" name="logout" class="btn btn-info btn-block" value="logout"/>
+                        </div>
+                        
+                    </form>
+                
                 </div>
             </div>
         </div>
@@ -157,9 +171,10 @@
         <div class="signup1">
             <input type="submit" id="prev" name="signup" class="btn btn-info btn-block" value="PREV PAGE"/>
         </div>
+        
     </form>
 
-                        
+                     
         
 </body>
 </html>

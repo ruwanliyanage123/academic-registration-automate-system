@@ -47,6 +47,7 @@
         public function logout(){
             $this->load->library('session');
             $this->session->sess_destroy();
+            $this->load->view('user/UserLoginView');
         }
 
         //for open applicants dashboard

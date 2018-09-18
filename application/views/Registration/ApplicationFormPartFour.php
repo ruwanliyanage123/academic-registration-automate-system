@@ -85,6 +85,13 @@
                             <input type="submit" id="prev" name="signup" class="btn btn-info btn-block" value="PREV PAGE"/>
                         </div>
                     </form>
+
+                    <form action= "<?= base_url("/index.php/UserLoginController/logout")?>" >
+                        <div class="signup1">
+                            <input type="submit" id="logout" name="logout" class="btn btn-info btn-block" value="logout"/>
+                        </div>
+                    </form>
+
                 </div>
             </div>
         </div>

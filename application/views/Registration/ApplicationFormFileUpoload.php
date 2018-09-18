@@ -61,16 +61,22 @@
         </form>
 
         <form action= "<?= base_url("/index.php/UserLoginController")?>"  >
-                        <div class="signup2">
-                            <input type="submit"id="next" name="signup"class="btn btn-info btn-block" value="SUBMIT"/>
-                        </div>
-                    </form>
+            <div class="signup2">
+                <input type="submit"id="next" name="signup"class="btn btn-info btn-block" value="SUBMIT"/>
+            </div>
+        </form>
 
-                    <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationFourthPage")?>" >
-                        <div class="signup1">
-                            <input type="submit" id="prev" name="signup" class="btn btn-info btn-block" value="PREV PAGE"/>
-                        </div>
-            </form>
+        <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationFourthPage")?>" >
+            <div class="signup1">
+                <input type="submit" id="prev" name="signup" class="btn btn-info btn-block" value="PREV PAGE"/>
+            </div>
+        </form>
+
+        <form action= "<?= base_url("/index.php/UserLoginController/logout")?>" >
+            <div class="signup1">
+                <input type="submit" id="logout" name="logout" class="btn btn-info btn-block" value="logout"/>
+            </div>
+        </form>
 
     </div>
     
