@@ -32,7 +32,7 @@
 
 
 
-        <form action= "<?= base_url("/index.php/UserLoginController/loadRegistrationFirstPage")?>" method = "post" >
+        <form action= "<?= base_url("/index.php/UserLoginController/applicantDashboard")?>" method = "post" >
             <div class="username">
                 
                 <input type='text' class="form-control input-sm username" name='username' id='username' required size='5'placeholder="                Enter your username"/>

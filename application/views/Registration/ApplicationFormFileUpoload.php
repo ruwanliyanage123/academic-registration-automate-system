@@ -22,35 +22,35 @@
         <form class="form-horizontal" role="form" action="process.php" method="post" enctype="multipart/form-data">
         
             <div class="form-group">
-                <h3 id="label1">for birth certificate</h3>
+                <h3 id="label1">for birth certificate scanned copy</h3>
                 <input type="file" class="inputstl" id="selphoto1" name="sentfile">
                 <button type="submit" class="btn btn-lg btn-block btn-primary"  id="button1">upload</button>
                 
             </div>
 
             <div class="form-group">
-                <h3 id="label2">for birth certificate</h3>
+                <h3 id="label2">for NIC scanned copy</h3>
                 <input type="file" class="inputst2" id="selphoto2" name="sentfile">
                 <button type="submit" class="btn btn-lg btn-block btn-primary"  id="button2">upload</button>
                 
             </div>
            
             <div class="form-group">
-                <h3 id="label3">for birth certificate</h3>
+                <h3 id="label3">for degree certificates</h3>
                 <input type="file" class="inputst2" id="selphoto3" name="sentfile">
                 <button type="submit" class="btn btn-lg btn-block btn-primary"  id="button3">upload</button>
                 
             </div>
 
             <div class="form-group">
-                <h3 id="label4">for birth certificate</h3>
+                <h3 id="label4">for curriculum vitae</h3>
                 <input type="file" class="inputst2" id="selphoto4" name="sentfile">
                 <button type="submit" class="btn btn-lg btn-block btn-primary"  id="button4">upload</button>
                 
             </div>
 
             <div class="form-group">
-                <h3 id="label5">for birth certificate</h3>
+                <h3 id="label5">for transcript</h3>
                 <input type="file" class="inputst2" id="selphoto5" name="sentfile">
                 <button type="submit" class="btn btn-lg btn-block btn-primary"  id="button5">upload</button>
                 
@@ -60,7 +60,7 @@
 
         </form>
 
-        <form action= "<?= base_url("/index.php/UserLoginController")?>"  >
+        <form action= "<?= base_url("/index.php/UserLoginController/createAd")?>"  >
             <div class="signup2">
                 <input type="submit"id="next" name="signup"class="btn btn-info btn-block" value="SUBMIT"/>
             </div>

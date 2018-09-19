@@ -52,8 +52,8 @@
 
         //for open applicants dashboard
         public function applicantDashboard(){
-            echo"are you a applicant";
-            $this->load->view('Dashboards/ApplicantDashboard');
+            
+            $this->load->view('user/Applicant/ApplicantDashboard');
         }
         //for open sar dashboard
         public function sarDashboard(){
@@ -65,6 +65,13 @@
             echo"are you a operator";
             $this->load->view('user/Operator/OperatorDashboard');
         }
+
+        public function createAd(){
+            echo"are you a operator";
+            $this->load->view('user/Operator/CreateAd');
+        }
+
+
         //if username and password is not valid re try
         public function askForRegister(){
             $this->load->view('Registration/AskForRegisterView');
